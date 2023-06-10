@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 850px;
+  background: #ccc;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+.Link{
+  background-color: #333;
+  color: white;
+  overflow: hidden;
+    }
+    .Link a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+</style>
+</head>
+<body>
+
+<h2>Name: Leng KoemHort</h2>
+<header>
+  <div class="Link">
+  <a href="#link">Link</a>
+  <a href="#link">Link</a>
+  <a href="#link">Link</a>
+  <a href="#link">Link</a>
+</div>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><p style="font-size: 20px; font-weight: bold;">About Me</p></li>
+      <li><p style="font-weight: bold;">Photo of me:</p></li>
+      <li><p style="background-color: #a39f9f; padding-bottom: 50%; padding-left: 15px; padding-top: 15px;">Image</p></li>
+      <li></li><p>Some text about me in culpa qui officia deserunt mollit anim..</p></li>
+      <li><p style="font-weight: bold; font-size: 19px;">More Text</p></li>
+      <li><p>Lorem ipsum dolor sit ame.</p></li>
+      <p style="background-color: #a39f9f; padding-bottom: 2%; padding-left: 15px; padding-top: 15px;">Image</p>
+<p style="background-color: #a39f9f; padding-bottom: 2%; padding-left: 15px; padding-top: 15px;">Image</p>
+<p style="background-color: #a39f9f; padding-bottom: 2%; padding-left: 15px; padding-top: 15px;">Image</p>
+    </ul>
+  </nav>
+  <article>
+    <p style="font-weight: bold; font-size: 17px;">TITLE HEADING</p>
+    <p style="font-weight: bold;">Title description, Dec7,2017</p>
+    <p style="background-color: #a39f9f; padding-bottom: 21%; padding-left: 15px; padding-top: 15px;">Image</p>
+    <p>Some text..</p>
+    <p style="margin-bottom: 56px;">Sunt in culpa qui foocia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <h2>TITLE HEADING</h2>
+    <p style="font-weight: bold;">Title description,Sep 2,2017</p>
+    <p style="background-color: #a39f9f; padding-bottom: 21%; padding-left: 15px; padding-top: 15px;">Image</p>
+    <p>Some text.. </p>
+    <p>Sunt in culpa qui foocia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+</article>
+</section>
+
+<footer>
+    <p style="
+        margin-top: 0px;
+        background-color: #aaa8a8;
+        padding-top: 30px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+      ">Footer</p>
+  </footer>
+</body>
+</html>
+
